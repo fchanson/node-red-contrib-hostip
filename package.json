@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-hostip",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This node provides the IP address of the machine hosting the Node-red.",
   "dependencies": {
 
@@ -15,7 +15,7 @@
   ],
   "node-red"     : {
       "nodes": {
-          "node-red-hostipr": "hostip/hostip.js"
+          "node-red-hostip": "hostip/hostip.js"
       }
   },
   "author": {
