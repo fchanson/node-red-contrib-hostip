@@ -25,3 +25,6 @@ The output **msg.payload** is an Array and contains for each address : <br>
 - family : the IP family (IPv4 or IPV6).
 - scopeid : the Scope ID in case of IPv6.
 
+### License 
+
+MIT License
