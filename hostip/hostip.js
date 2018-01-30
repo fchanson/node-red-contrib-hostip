@@ -17,7 +17,7 @@ module.exports = function(RED) {
 				for ( var i in interfaces) {
 
 					interfaces[i].forEach(function(details) {
-
+						details.interface = i;
 						if (!details.internal) {
 							delete details.netmask;
 							delete details.mac;
